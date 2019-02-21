@@ -12,8 +12,9 @@ public class Principal {
 		
 		int menu;
 		
-		// Se añaden tantas solicitudes como desee el usuari@;
+		// Se aÃ±aden tantas solicitudes como desee el usuari@;
 		//Este es parte del proyecto;
+		//Second editing on project
 		
 		do{
 			
@@ -24,7 +25,7 @@ public class Principal {
 				int encontrado=buscarDni(dni, becas, numBecas);
 				
 				if(encontrado == -1){
-					System.out.println("Renta percápita del solicitante: ");
+					System.out.println("Renta percÃ¡pita del solicitante: ");
 					double renta=sc.nextDouble();
 					sc.nextLine();
 					
@@ -38,12 +39,12 @@ public class Principal {
 				
 				if (numBecas==MAXBECAS)
 					break;
-				System.out.println("Añadir otra solicitud:1. Si\n2. No");
+				System.out.println("AÃ±adir otra solicitud:1. Si\n2. No");
 				menu=sc.nextInt();
 			
 		}while(menu==1);
 		
-		System.out.println("Damos puntuación a las becas*************");
+		System.out.println("Damos puntuaciÃ³n a las becas*************");
 		
 		for(int cont=0; cont < numBecas; cont++){
 			becas[cont].darPuntuacion();
