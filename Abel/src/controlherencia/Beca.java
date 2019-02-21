@@ -5,7 +5,7 @@ public class Beca {
 	private String dnialumno;
 	private double renta;
 	private int puntuacion;
-	private static int lol;
+	private static int omg;
 		
 	public Beca(String dnialumno, double renta) {
 		super();
