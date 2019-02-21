@@ -13,8 +13,7 @@ public class Principal {
 		int menu;
 		
 		// Se añaden tantas solicitudes como desee el usuari@;
-		//Este es parte del proyecto;
-		//Second editing on project 2
+		
 		
 		do{
 			
